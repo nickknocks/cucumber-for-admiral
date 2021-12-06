@@ -1,0 +1,23 @@
+{
+  "name": "cucummber-admiral",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/cucumber/bin/cucumber.js"
+  },
+  "author": "Nitin Verma",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "8.0.0-rc.1",
+    "@types/selenium-webdriver": "4.0.16",
+    "chromedriver": "96.0.0",
+    "dotenv": "10.0.0",
+    "selenium-webdriver": "4.1.0"
+  },
+  "devDependencies": {
+    "@types/chai": "4.2.22",
+    "@types/cucumber": "^7.0.0",
+    "chai": "4.3.4"
+  }
+}
