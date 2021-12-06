@@ -1,13 +1,16 @@
-# End-to-end testing using Cucumber-js, Selenium
-
-# Installation
+# Use package.josn for dependencies
 
 ```bash
-npm install # will use package.json to create node_modules with the needed dependencies.
+npm install # creates node_modules with the needed dependencies.
 ```
 
 # Running the tests
 
 ```bash
-npm test
+npm test 
 ```
+or
+```bash
+npx cucumber-js 
+```
+
